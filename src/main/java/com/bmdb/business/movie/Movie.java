@@ -24,6 +24,12 @@ public class Movie {
 		this.year = year;
 	}
 
+	public Movie(String title, int year) {
+		super();
+		this.title = title;
+		this.year = year;
+	}
+
 	public int getId() {
 		return id;
 	}

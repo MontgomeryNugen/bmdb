@@ -35,6 +35,13 @@ public class Credits {
 		this.characterName = characterName;
 	}
 
+	public Credits(Movie movie, Actor actor, String characterName) {
+		super();
+		this.movie = movie;
+		this.actor = actor;
+		this.characterName = characterName;
+	}
+
 	public int getId() {
 		return id;
 	}
